@@ -1,0 +1,105 @@
+.left-aside {
+    background-color: #fff;
+    position: fixed;
+    top: 52px;
+    left: 0;
+    height: 100%;
+    width: 77px;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+    z-index: 200;
+    
+
+   
+}
+
+.home-icon,
+.explore-icon,
+.subcription-icon,
+.original-icon,
+.youtube-music-icon,
+.library-icon {
+    height: 22px;
+}
+
+.home-image,
+.explore-image,
+.subcription-image,
+.original-image,
+.youtube-music-image,
+.library-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    width: 100%;
+}
+
+
+.home-image:hover,
+.explore-image:hover,
+.subcription-image:hover,
+.original-image:hover,
+.youtube-music-image:hover,
+.library-image:hover {
+    background-color: #a7a7a7;
+    cursor: pointer;
+}
+
+
+
+
+
+.left-aside h1{
+    font-size: 10px;
+    
+}
+.left-aside-phone-size {
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+    .left-aside {
+        display: none;
+    }
+
+    .left-aside-phone-size{
+        border-top: 1px solid #272727;
+        background-color: #fff;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        display: flex;
+        align-items: center;
+
+    
+    }
+
+   .left-aside-phone-size h1 {
+       font-size: 10px;
+       white-space: nowrap;
+       color: #000;
+   }
+        .home-icon,
+        .explore-icon,
+        .subcription-icon,
+        .original-icon,
+        .youtube-music-icon,
+        .library-icon {
+        height: 20px;
+        
+    }
+
+
+
+
+  }
+  
+
